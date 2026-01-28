@@ -1,0 +1,141 @@
+Title,Description,Tags
+Why is the arrow not rendering to the right,"from manim import *
+class DefaultTemplate(Scene):
+    def construct(self):
+        self.add(Line([1, -1, 0], [1, 1, 0]))
+        self.play(Create(Line([0, 1, 0], [0, -1, 0])))
+        self.wait(.1)
+   ...","python, manim"
+Github link to see by other people,"I have a GitHub profile (https://github.com/Thibaut501) where I publish personal and academic projects. I would like to understand what concrete, technical actions help increase visibility and ...","python, model-view-controller"
+Python Web scrapping code deployed as a EXE file? [closed],"I need help in understanding if this code is malicious. Or if it is generic? Or can it download a virus? I deployed this as an exe file.
+This is a code I wrote while working. I got feedback that this ...","python, python-3.x, selenium-webdriver"
+"vLLM-Omni fails with ""NVMLError_InvalidArgument"" and ""V1 LLMEngine"" errors in spawned worker processes","Problem
+I'm trying to run vLLM-Omni (v0.11.0rc1) with the Qwen2.5-Omni-7B model on an NVIDIA A100 GPU, but initialization fails with two critical errors in spawned worker processes:
+
+NVML Invalid ...","python, vllm"
+Add IAM Role to Redshift Cluster in AWS CDK,"I am trying to add an IAM role to a Redshift cluster which is already created. I am using the below approach and facing errors.
+from aws_cdk import (
+    Duration,
+    Stack,
+    aws_redshift_alpha as ...","python, amazon-web-services, amazon-redshift, amazon-iam, aws-cdk"
+How do I remove an item from a cart,"I'm making a ""concession stand"" for a shop and trying to implement a ""remove"" feature to remove things from the cart but I have no idea where to start.
+import menu
+cart = [] #List ...","python, python-3.x"
+TBB interaction in python binding,"I have a C++ library exposed as a python module which internally uses oneTBB.
+When compiling the library, I install the dependencies with it, including the oneTBB shared
+library.
+When I try to use the ...","python, c++, numpy, tbb"
+How to work around Pydantic's lack of high-level support for Unpack tuples?,"I'm trying to represent a variable-length tuple of Pydantic BaseModels as a RootModel. However, issue #5952 indicates that, while pydantic-core supports validating such types, Pydantic doesn't ...","python, pydantic"
+Why does GridDB Python client silently ignore NULL values during multi-row insertion into a Collection?,"I’m using GridDB Community Edition 5.x with the griddb_python client to insert data into a Collection container.
+Container schema:
+store.put_container(
+    ""user_events"",
+    [
+        (&...","python, griddb"
+fast api : where to add dependencies,"Which is a better approach to follow in fast api to add dependency to the router or function ? check_person_exists will accept the person_id as an input parameter
+@router.put(
+    ""/update-name/{...","python, dependency-injection, dependencies, fastapi, depends"
+How to connecto to GStreamer pipeline,"I am trying to capture screen on KDE and Wayland. How I can do it? Am I doing it wrong?
+I tried code beloow, but I am getting
+
+gi.repository.GLib.GError: g-io-error-quark: GDBus.Error:org.freedesktop....","python, kde-plasma, wayland"
+ETL on a Overcomplex Data Structure with pandas and pyspark,"The question is: are the proposed methods for flattening a given dataframe efficient enough, or could they be further refined?
+An example of a pandas input dataframe columns (it is a given, cannot be ...","python, json, pandas, dataframe, pyspark"
+Implemenatation Of the KONG API Gate way in microservice using HS256 and RS256,"I have to implement the KONG api Gateway In that i have two types of token which is
+1)Internal Token Using Custom JWT
+2)I have Implemented the Azure AD SSO directly in frontend from that i am getting ...","python, microservices, single-sign-on, fastapi, api-gateway"
+"For files uploaded via Django, how can I use them with libraries that require a hard file path to the file?","I am currently working on a text extraction component of my Django backend, which intends to extract text from urls (working), pure text (working), and files (.pdf, .doc, .ppt, .md, .txt, .html).
+My ...","python, django, django-forms, backend, spire"
+"Should a single API call handle everything to make life of frontend easy, or there be as many apis as needed [closed]","So I face this issue often. Apart from being a backend python dev, I also have to handle a team consisting of frontend guys as well.
+We are into SPAs, and a single page of ours sometime contain a lot ...","python, django, rest, architecture, single-page-application"
+Read an RTSP python GStreamer stream from multiple clients,"I am trying to connect my module with an RTSP stream using GStreamer. I am mainly using this example and I have modified it a bit to my needs.
+# import necessary arguments 
+import gi
+import cv2
+import ...","python, gstreamer, rtsp"
+How do you use SQLite in memory to behave just like it was on a normal file? [closed],"So i have a FastAPI app, with SQLAlchemy as ORM. We have a service that uses a SQLite DB to retrieve info from some services and have as a ""cache"" for us.
+Now, its not a huge DB file, its ...","python, sqlite, sqlalchemy, fastapi"
+Pylance reporting errors on libraries with dynamic imports such as Cocoa or Quartz from pyobjc,"Consider this runtime-error-free code:
+import Quartz
+from Cocoa import NSApplication 
+
+(...)
+
+screen_w = Quartz.CGDisplayBounds(Quartz.CGMainDisplayID()).size.width
+Pylance keeps flagging
+""...","python, macos, pylance, pyobjc, dynamic-import"
+Unable to get rpi_WS281x to run on 64bit Raspberry pi,"When I try to initialise the WS281x interface with
+from rpi_ws281x import *
+strip = Adafruit_NeoPixel(LED_COUNT, LED_PIN, LED_FREQ_HZ, LED_DMA, LED_INVERT, LED_BRIGHTNESS, LED_CHANNEL)
+strip.begin() #...","python, raspberry-pi"
+`NameError` from `inspect.signature()` or `obj.__annotations__` for types present only in `TYPE_CHECKING` block,"I'm using inspect.signature() to get a function signature as a string for generating some documentation by hand, and I'm getting a NameError.
+I have this minimal Python script to reproduce my problem:
+...","python, python-typing, introspection, forward-reference"
+DuckTyping on a generic T,"I want to inject some behavior into GenericClass based on the generic it gets assigned. The type T is expected to have a classmethod validate that performs some validation.
+LiveDemo
+from typing import ...",python
+Publish Dash App Via Plotly Cloud - ModuleNotFoundError during publishing,I am trying to publish a dash app via plotly cloud. The app works without error when run on a local host but when I try to publish the app i get ModuleNotFoundError error regarding internal imports in ...,"python, gunicorn, plotly-dash"
+Advice needed: scraping company websites in Python,"I’m building a small project that needs to scrape company websites (manufacturers, suppliers, distributors, traders) to collect basic business information. I’m using Python and want to know what the ...","python, python-3.x, web-scraping, web, automation"
+Extracting unique values from multiple sets [duplicate],"I have 3 sets:
+alice = {'first_kill', 'level_10', 'treasure_hunter', 'speed_demon'}
+bob = {'first_kill', 'level_10', 'boss_slayer', 'collector'}
+charlie = {'level_10', 'treasure_hunter', 'boss_slayer',...","python, set"
+How do I deploy a service using deepface without reloading the model?,"I want to load the model first. Then, every time I input an image, I can perform the inference without having to reload the model every time.
+For example, I will use verification：
+res = DeepFace....","python, deepface"
+totalRecords count seems incorrect,"My Flask application exposes a REST API for CVE data stored in SQLite. The API supports filtering and pagination, but is my totalRecords count logic correct when filters are applied?
+totalRecords ...","python, sql, sqlite, flask"
+Submit job without having access to worker code,"I'm trying to set up a worker to perform jobs created by my backend server.  I took at look at Redis Queue and came across this example from their page:
+from my_module import count_words_at_url
+result ...","python, python-rq"
+How can I run the MADDPG example from AgileRL? [closed],How I can run the MADDPG example on Fedora 43? I get this C++ error when using the multi_agent_ale.py dependency (using pip) because it wants to use C++17 (I think because there is a std::int8_t error ...,"python, c++, linux, docker, reinforcement-learning"
+"YouTube Transcript API returns ""Could not retrieve a transcript"" error - IP blocking or rate limiting? [closed]","I'm using `youtube-transcript-api` (v1.2.3) to fetch video transcripts. After making ~40 requests while testing, I'm now getting blocking errors for all videos.
+Error
+
+Could not retrieve a transcript ...","python, youtube-api"
+How to properly retrieve context in an OpenAI Realtime conversation using response.create,I’m trying to generate an out-of-band response in Realtime OpenAI using response.create without appending to the default conversation. I want to summarize the conversation and output the client’s ...,"python, real-time, openai-api"
+How to create a class that generates auto-updateable plots,"I want to create a class that will create updateable plots. I plan on having 8-16 figures in one window, so it would be nice to have a class that would initiate these for me. These graphs will auto-...","python, class, matplotlib, tkinter-canvas"
+How do I print a list of converted numbers as letters in Python? [closed],"I am creating a Python function to print a list of converted numbers as letters, but it doesn't print the list in the terminal. Here's my code so far:
+def alphabets():
+    alphabetList = []
+    for ...","python, function, range"
+"Getting ""PermissionError: [Errno 13] Permission denied: '/scratch/338904'"" while loading a model using VLLM",I am trying to run Qwen 3.5 B VLM on my university server but keep getting this permission error. I don't know whether this is relevant to some of the environmental variable or my code. I have shared ...,"python, artificial-intelligence, large-language-model, vllm"
+"Spyder version 6.1, Spyder-kernels=3.1 in Python 3.8","When I have looked through all documentation, it seems to say the current spyder version supports python 3.8, yet spyder-kernels=3.1 requires python 3.9 or greater. Did I miss something in the ...","python, spyder"
+How to identify users' profiles based on the output uplift values,"I am currently learning the Causal Forest algorithm in Python. In an exercise, I need to evaluate a marketing campaign where a certain group of users have already received coupons. Given that Y is the ...","python, machine-learning, scikit-learn"
+How can I route audio from my PC to my phone during a call? [closed],I'm trying to send audio from a voice agent running on my PC directly into an ongoing phone call on my mobile device. The goal is for the person on the other end of the call to hear the PC-generated ...,"python, android, windows"
+"Why mysqldump is returning cannot find table "">"" in python subprocess [duplicate]","i have created a mini python tool to backup using mysqldump
+import os 
+import subprocess
+from datetime import datetime
+from dotenv import load_dotenv,dotenv_values
+
+load_dotenv(dotenv_path=""./...","python, mysql, subprocess"
+How to exclude Pydantic fields from deserialisation?,"Is there a way in Pydantic to have a field that:
+
+Is not deserialised (it has a default value instead; if it's in the input it should be ignored/error depending on the config), and
+Has a public name (...","python, pydantic"
+Overriding the agent state in Langgraph,"I am trying to override the Langgraph's state[""messages""] before it reaches the agent, but not sure if I am doing it right. I need to remove some messages from state before sending it to ...","python, langchain, langgraph"
+Is django backend a good choice to learn now?,"I have some experience with Python, and I’m interested in backend development.
+Is Django still a good choice to learn in the current job market?
+I’m particularly interested in its relevance for modern ...","python, django, django-rest-framework"
+What are the differences between setattr and __set__? [closed],I only know  that setattr is built-in function that allows us to change value of attribute of object and __set__  is descriptor. This is all knowledge. What are the differences?,"python, oop"
+LightGBM regression on rank-transformed target: “No further splits with positive gain” and nearly-constant predictions,"I’m training a LightGBM model where the evaluation metric is Spearman correlation (rank-based). To better align training with the metric, I transform the continuous target y into ranks scaled to [0,1]:...","python, machine-learning"
+Can you give advice on how to complete my Python function code,"I'm creating a Python function for a cinema that checks if a customer is eligible to view their film choice. I have included three pieces of information, which is age, film rating and ID. A yes or no ...","python, function, if-statement"
+Reducing Interactive Prompts When Using Different Scopes Azure,"I'm using InteractiveBrowserCredential in a python script to authenticate against multiple Azure services: Azure Key Vault and Azure ResourceGraph.
+The browser opens twice during authentication - once ...","python, azure"
+Creating a figure with matplotlib imshow with native resolution of the array [duplicate],"I am currently creating figures with one or more imshow plots.
+I would like to get a native plot of one of those imshow plots.
+To my understanding I would need to calculate the figure size, with ...","python, matplotlib"
+DRF unable to find existing model item in API,"I am creating an API with Django Rest Framework and I keep encoutering an issue where i am unable to pull a single item from my django model on the browser.
+I have two endpoints one that gets the ...","python, django, django-models, django-rest-framework"
+Docker load fails with wrong diff id calculated on extraction for large CUDA/PyTorch image (Ubuntu 22.04 + CUDA 12.8 + PyTorch 2.8),"About
+I am trying to create a Docker image with the same Dockerfile with Python 3.10, CUDA 12.8, and PyTorch 2.8 that is portable between two machines:
+Local Machine: NVIDIA RTX 5070 (Blackwell ...","python, docker, pytorch, cuda"
+Recommendations for improving my structure,"""""""Firewall""""""
+
+import random
+def rng_ipv4():
+    """"""Generates random IP address""""""
+    number = tuple(str(random.randint(100, 255)) for _ ...",python
+Monitoring a folder with subfolders for newly added files using python,I would like to monitor a folder with subfolders where every minute a new file is added (by another application). I need to process these files in python as soon as they are added. The folder contains ...,"python, file, monitoring, real-time"
+Automating spike detection (dummy variable) in multiple time series using departures from (rolling) mean [closed],I am working with multiple time series variables and I want to automate the process of creating dummy variables for spikes in Python. The logic is when the time series value departs  by a certain ...,"python, time-series, dummy-variable"
