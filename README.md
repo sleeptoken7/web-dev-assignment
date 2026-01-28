@@ -22,3 +22,6 @@ This task involves a Python script that scrapes the Stack Overflow questions pag
 ## Task 2: PHP/MySQL CRUD Application
 
 This is a full-stack web application for managing a simple task list.
+<img width="1036" height="683" alt="image" src="https://github.com/user-attachments/assets/0a3b1791-f1f8-40ab-ae78-3cde73a215cf" />
+
+<img width="976" height="796" alt="image" src="https://github.com/user-attachments/assets/a76b7820-ade0-4ea8-bcd3-d0234ec3a0b4" />
